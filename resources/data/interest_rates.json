@@ -1,0 +1,7 @@
+{
+    "timestamp": 1471437663000,
+    "rates": {
+        "Housing" : { "name" : "Housing Loan", "rate" : "5.0"},
+        "Personal" : { "name" : "Personal Loan", "rate" : "15.50" }
+    }
+}

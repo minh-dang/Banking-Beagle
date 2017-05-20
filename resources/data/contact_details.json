@@ -1,0 +1,30 @@
+{
+  "timestamp": 1471437663000,
+  "details": {
+    "RETAIL_PHONE": {
+      "title": "Personal & Product",
+      "payload": "+61131719",
+      "type": "phone_number"
+    },
+    "PHONE_PHONE": {
+      "title": "Phone Banking",
+      "payload": "+61131718",
+      "type": "phone_number"
+    },
+    "BUSINESS_PHONE": {
+      "title": "Business Banking",
+      "payload": "+61137000",
+      "type": "phone_number"
+    },
+    "INTERNATIONAL_PHONE": {
+      "title": "International Call",
+      "payload": "+61894864130",
+      "type": "phone_number"
+    },
+    "WEBSITE": {
+      "title": "Website Contact Us",
+      "url": "http://www.bankwest.com.au/contact-us",
+      "type": "web_url"
+    }
+  }
+}

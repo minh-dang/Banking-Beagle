@@ -1,0 +1,8 @@
+{
+    "timestamp": 1471437663001,
+    "stores": {
+        "WPS" : { "name" : "West Perth Store", "hours" : "Monday: 9:00 AM - 5:00 PM  Tuesday: 9:30 AM - 5:00 PM  Wednesday: 9:00 AM - 5:00 PM  Thursday: 9:00 AM - 5:00 PM  Friday: 9:00 AM - 5:00 PM  Saturday:  Closed  Sunday:  Closed"},
+        "BPS" : { "name" : "Bankwest Place Store", "hours" : "Monday: 8:00 AM - 6:00 PM  Tuesday: 8:00 AM - 6:00 PM  Wednesday: 8:00 AM - 6:00 PM  Thursday: 8:00 AM - 6:00 PM  Friday: 8:00 AM - 6:00 PM  Saturday: 9:00 AM - 5:00 PM  Sunday:  Closed"},
+    }
+}
+
