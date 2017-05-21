@@ -7,10 +7,10 @@ env:
 phases:
   install:
     commands:
-      - yum update -y
+      - echo Install Phase
   pre_build:
     commands:
-      - echo Hello World
+      - echo Prebuild Phase
   build:
     commands:
       - cd $CODEBUILD_SRC_DIR && npm install
