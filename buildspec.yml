@@ -1,14 +1,16 @@
-version: 0.1
-environment_variables:
-plaintext:
-PATH: "/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+version: 0.2
+
+env:
+  variables:
+    PATH: "/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+
 phases:
-install:
-commands:
-- yum update -y
-pre_build:
-commands:
-- echo Hello World
-build:
-commands:
-- cd $CODEBUILD_SRC_DIR && npm install
+  install:
+    commands:
+      - yum update -y
+  pre_build:
+    commands:
+      - echo Hello World
+  build:
+    commands:
+      - cd $CODEBUILD_SRC_DIR && npm install
