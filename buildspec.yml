@@ -7,10 +7,14 @@ env:
 phases:
   install:
     commands:
-      - echo Install Phase
+      - apt-get update -y
   pre_build:
     commands:
-      - echo Prebuild Phase
+      - echo Nothing to do in pre_build
   build:
     commands:
       - cd $CODEBUILD_SRC_DIR && npm install
+
+artifacts:
+  files:
+    - $CODEBUILD_SRC_DIR/*
